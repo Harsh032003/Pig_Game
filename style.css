@@ -1,0 +1,112 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito&display=swap");
+
+body {
+  background-color: #cb494e;
+  font-family: "Nunito", sans-serif;
+}
+
+.board {
+  background-color: #da989b;
+  border-radius: 25px;
+  width: 900px;
+  height: 600px;
+  margin: auto;
+  margin-top: 100px;
+}
+
+.upper {
+  padding-top: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 80px;
+}
+
+.player1,
+.player2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.p1 {
+  font-size: 40px;
+  font-weight: bolder;
+}
+
+.p2 {
+  font-size: 80px;
+  color: #cb494e;
+  margin-top: auto;
+  font-weight: bolder;
+}
+
+.upper-mid {
+  display: flex;
+  flex-direction: column;
+  gap: 80px;
+  align-items: center;
+}
+
+.dice {
+  width: 100px;
+}
+
+.new-game {
+  background-color: #e4dbdb;
+  border: solid 0px;
+  border-radius: 20px;
+  padding: 15px;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.lower {
+  margin-top: 40px;
+  display: flex;
+  justify-content: center;
+  gap: 80px;
+}
+
+.lower-mid {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+}
+
+.player1-score,
+.player2-score {
+  background-color: #cb494e;
+  border-radius: 20px;
+  padding-left: 50px;
+  padding-right: 50px;
+  height: fit-content;
+  color: #e4dbdb;
+  font-size: 20px;
+}
+
+.current,
+.current-score {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.roll-dice {
+  background-color: #e4dbdb;
+  border: solid 0px;
+  border-radius: 20px;
+  padding: 15px;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.hold {
+  background-color: #e4dbdb;
+  border: solid 0px;
+  border-radius: 20px;
+  padding: 15px;
+  font-size: 20px;
+  cursor: pointer;
+}
