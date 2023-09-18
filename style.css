@@ -3,7 +3,7 @@
 body {
   background-color: #cb494e;
   font-family: "Nunito", sans-serif;
-  padding-top: 100px;
+  
 }
 
 .board {
@@ -12,6 +12,7 @@ body {
   width: 900px;
   height: 600px;
   margin: auto;
+  margin-top: 100px;
 }
 
 .upper {
